@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /*   resets font on everything -> need to set font-weight, font-size */
+  font-family: inherit;
+  font-size: inherit;
+  font-family: "Roboto", serif;
+  font-size: 18px;
+}
+
+.container {
+    max-width: 1920px;
+    width: 65%;
+    margin: 30px auto;
+    padding: 50px;
+}
+
+.row {
+    display: flex; 
+    gap: 40px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.hero .container {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.nav {
+    padding: 20px 0;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header, .hero {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.title {
+    color: #f9FAF8;
+}
+
+.logo.title{
+    font-size: 24px;
+}
+
+.hero-content{
+    padding: 40px 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-img {
+    width: 50%;
+    object-fit: cover;
+    align-self: stretch;
+}
+
+.hero-btn {
+    padding: 5px 30px;
+    border-radius: .5rem;
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    margin-top: 10px;
+}
+
+.info h1 {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+.info .row {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px
+}
+
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 18px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB ;
+}
+
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    padding: 18px;
+    text-align: center;
+}
+
+.author {
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: 700;
+
+}
+
+.callout {
+    background-color: #3882F6;
+    padding: 50px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.primary-text {
+    color: #f9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18;
+}
+
+.callout-btn {
+    padding: 10px 40px;
+    background-color: transparent;
+    color: #f9FAF8;
+    border: 2px solid #f9FAF8;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #f9FAF8;
+    font-weight: 200;
+}
+
+.footer a {
+    color: #f9FAF8;
+}
